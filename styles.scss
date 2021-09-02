@@ -66,3 +66,25 @@ body{
 
     }
 }
+
+footer {
+    margin: auto;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+    img {
+        object-fit: contain;
+        width: 10vw;
+        margin: 1rem;
+        
+        max-width: 40px;
+    }
+}
+
+.quiz-footer{
+    position: unset;
+    margin: 0;
+}
