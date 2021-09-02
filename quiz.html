@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle quiz</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="navigation">
+            <h1>Fun with triangles</h1>
+            <nav>
+                <a href="/index.html">Is triangle</a>
+                <a href="/quiz.html">Triangle Quiz</a>
+                <a href="/hypotenuse.html">Calculate Hypotenuse</a>
+                <a href="/triangle-area.html">Area of Triangle</a>
+            </nav>
+        </div>
+        <div class="main">
+            <h1>A simple quiz on triangles</h1>
+            <h3>For each correct answer you will get 1 point</h3>
+
+            <form class="quiz-form">
+                <div class="question-container">
+                    <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+                    <div class="options">
+                        <label for="">
+                            <input type="radio" name='question1' value='45' required="required">
+                            45°
+                        </label>
+                        <label for="">
+                            <input type="radio" name='question1' value='75 required="required"'>
+                            75°
+                        </label>
+                        <label for="">
+                            <input type="radio" name='question1' value='90' required="required">
+                            90°
+                        </label>
+                    </div>
+                </div>
+                <div class="question-container">
+                    <p>The perimeter of an equilateral triangle is 30cm. What is the length of one side?</p>
+                    <div class="options">
+                        <label for="">
+                            <input type="radio" name='question2' value='25' required="required">
+                            25cm
+                        </label>
+                        <label for="">
+                            <input type="radio" name='question2' value='10' required="required">
+                            10cm
+                        </label>
+                        <label for="">
+                            <input type="radio" name='question2' value='15' required="required">
+                            15cm
+                        </label>
+                    </div>
+                </div>
+                <div class="question-container">
+                    <p>There is a right triangle PQR where: angle Q = 90°; angle P = angle R. What is the measure of
+                        angles P and R?</p>
+                    <div class="options">
+                        <label for="">
+                            <input type="radio" name='question3' value='45' required="required">
+                            45°
+                        </label>
+                        <label for="">
+                            <input type="radio" name='question3' value='75' required="required">
+                            75°
+                        </label>
+                        <label for="">
+                            <input type="radio" name='question3' value='90' required="required">
+                            90°
+                        </label>
+                    </div>
+                </div>
+                <div class="question-container">
+                    <p>Is it possible for a triangle to have 2 right angles?</p>
+
+                    <div class="options">
+                        <label for="">
+                            <input type="radio" name='question4' value='yes' required="required">
+                            Yes
+                        </label>
+                        <label for="">
+                            <input type="radio" name='question4' value='no' required="required">
+                            No
+                        </label>
+                    </div>
+
+
+                </div>
+
+            </form>
+            <button id="submit-answers">Submit Answers</button>
+
+
+
+            <div class="quiz-output"></div>
+        </div>
+    </div>
+
+    <script src="./quiz.js"></script>
+</body>
+
+</html>
